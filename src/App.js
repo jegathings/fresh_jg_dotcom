@@ -20,7 +20,6 @@ const App = (props) =>  {
   const RESUME = "resume";
 
   const display = (showMe) => {
-      console.log("display", showMe);
       setAbout(false);
       setGitHub(false);
       setLinkedIn(false);
