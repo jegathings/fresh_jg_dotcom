@@ -30,7 +30,7 @@ export default (props) => {
                 <a href="https://github.com/jegathings/brooklyncookin_backend" target="_blank">Serverside Code</a><br />
                 <a href="https://github.com/jegathings/brooklyncookin_frontend" target="_blank">UI Code</a><br />
             </div>
-            <div className="styled_border">
+            {/* <div className="styled_border">
                 <h2>Dad Jokes</h2>
                 <a href="https://quirky-knuth-bf45cb.netlify.app/" target="_blank"><img src="https://cooljg-dad-jokes.s3.amazonaws.com/dadjokes.png" alt="dad jokes" /></a>
                 <p>
@@ -38,7 +38,7 @@ export default (props) => {
                 </p>
                 <a href="https://github.com/jegathings/dadjokes_backend" target="_blank">Serverside Code</a><br />
                 <a href="https://github.com/jegathings/dadjokes_frontend" target="_blank">Frontend Code</a><br />
-            </div>
+            </div> */}
             <div className="styled_border">
                 <h2>Cool JG Dot Com</h2>
                 <a href="https://flamboyant-brahmagupta-cc4096.netlify.app/" target="_blank"><img src="https://cooljg-dotcom.s3.amazonaws.com/cooljgdotcom.png" alt="dad jokes" /></a>
