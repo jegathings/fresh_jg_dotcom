@@ -27,9 +27,16 @@
 .App-link {
   color: #61dafb;
 }
-
+html,
 body{
-  background-color: rgb(223, 217, 217);
+  background-color: #FAACA8;
+  background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%); 
+  background-size: cover;
+  min-height:100%;
+}
+.img-circle {
+  border-radius: 50%;
+  width:150px;
 }
 img {
   border: 1px solid #ddd; /* Gray border */
@@ -37,7 +44,6 @@ img {
   padding: 5px; /* Some padding */
   width: 150px; /* Set a small width */
 }
-
 /* Add a hover effect (blue shadow) */
 img:hover {
   box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
@@ -47,7 +53,7 @@ img:hover {
 }
 .button {
   border: none;
-  color: rgb(164, 205, 218);
+  color: rgb(48, 97, 112);   
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -77,8 +83,9 @@ min-height: 100vh;
 }
 .styled_border{
   border-style: solid;
-  border-color: rgb(164, 205, 218);    
+  border-color: rgb(92, 183, 211);    
   padding: 20px 20px;
+  margin: 20px 20px;
   border-radius: 25px;
 }
 /**
@@ -116,7 +123,7 @@ order: -1;
   flex-direction: row;
   justify-content: center;
   border-style: solid;
-  border-color: rgb(164, 205, 218);    
+  border-color: rgb(92, 183, 211);    
   padding: 20px 50px;
   border-radius: 25px;
 
