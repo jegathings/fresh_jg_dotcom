@@ -3,6 +3,9 @@ import React from 'react';
 export default (props) => {
     return (
         <div>
+            <p className="styled_border">
+                Developing React-Express-NOSQL apps is a fun way to learn new stuff and make good use of free time.  Here are a few fun projects I am currently working on.
+            </p>
             <div className="styled_border">
                 <h2>Brooklyn Cookin</h2>
                 <a href="https://flamboyant-jones-5284c1.netlify.app/" target="_blank"><img src="https://cooljg-brooklyn-cookin.s3.amazonaws.com/brooklyncookin.png" alt="brooklyn cookin" /></a>

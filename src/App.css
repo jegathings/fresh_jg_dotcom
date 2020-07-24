@@ -37,7 +37,7 @@ body{
   width:150px;
 }
 img {
-  border: 1px solid #ddd; /* Gray border */
+  border: solid black; /* Gray border */
   border-radius: 4px;  /* Rounded border */
   padding: 5px; /* Some padding */
   width: 150px; /* Set a small width */
@@ -51,7 +51,6 @@ img:hover {
 }
 .button {
   border: none;
-  color: rgb(48, 97, 112);   
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
