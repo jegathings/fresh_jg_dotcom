@@ -71,6 +71,7 @@ const App = (props) => {
                 <h1>James Gathings</h1>
                 <img src="Me.jpg" className="img-circle"/>
                 <h2>Full Stack Developer</h2>
+                <h3>React | Express | Java | Python | SQL | NOSQL | Linux | AWS </h3>
                 <nav className="dispatch">
                     <button class="button" onClick={() => { display(ABOUT) }}  >About</button>
                     <button class="button" onClick={() => { display(BIO) }}>Bio</button>
