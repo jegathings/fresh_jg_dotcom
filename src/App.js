@@ -4,6 +4,7 @@ import React from 'react';
 import About from './components/about';
 import Portfolio from './components/portfolio';
 import Bio from './components/bio';
+import Certifications from './components/certifications';
 
 const App = (props) => {
     const [about, setAbout] = React.useState(false);
@@ -12,12 +13,14 @@ const App = (props) => {
     const [portfolio, setPortfolio] = React.useState(false);
     const [bio, setBio] = React.useState(false);
     const [resume, setResume] = React.useState(false);
+    const [certifications, setCertifications] = React.useState(false);
     const ABOUT = "about";
     const GITHUB = "github";
     const LINKEDIN = "linkedin";
     const PORTFOLIO = "portfolio";
     const BIO = "bio";
     const RESUME = "resume";
+    const CERTIFICATIONS = "certifications";
 
     const display = (showMe) => {
         setAbout(false);
@@ -62,6 +65,14 @@ const App = (props) => {
             setLinkedIn(false);
             setPortfolio(false);
             setResume(false);
+        } else if (showMe === CERTIFICATIONS){
+            setCertifications(!certifications);
+            setBio(false);
+            setAbout(false);
+            setGitHub(false);
+            setLinkedIn(false);
+            setPortfolio(false);
+            setResume(false);
         }
     }
 
@@ -71,11 +82,12 @@ const App = (props) => {
                 <h1>James Gathings</h1>
                 <img src="Me.jpg" className="img-circle"/>
                 <h2>Full Stack Developer</h2>
-                <h3>React | Express | Java | Python | SQL | NOSQL | Linux | AWS </h3>
+                <h3>React | Express | Java | Python | SQL | NOSQL | Linux | AWS Certified</h3>
                 <nav className="dispatch">
                     <button class="button" onClick={() => { display(ABOUT) }}  >About</button>
                     <button class="button" onClick={() => { display(BIO) }}>Bio</button>
                     <button class="button" onClick={() => { display(PORTFOLIO) }}>Portfolio</button>
+                    <button class="button" onClick={() => { display(CERTIFICATIONS)}}>Certifications</button>
                     <button class="button" ><a href="https://github.com/jegathings?tab=repositories" target="_blank">GitHub</a></button>
                     <button class="button" ><a href="https://www.linkedin.com/in/jegathings" target="_blank">LinkedIn</a></button>
                     <button class="button"><a href="https://jgs-super-cool-2020-resume.s3.amazonaws.com/James+Gathings+Resume.docx">Resume</a></button>
@@ -94,6 +106,10 @@ const App = (props) => {
                     {
                         bio &&
                         <Bio />
+                    }
+                    {
+                        certifications &&
+                        <Certifications />
                     }
                 </section>
                 <div class="holy-grail-sidebar-1 hg-sidebar">
