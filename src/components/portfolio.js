@@ -8,9 +8,12 @@ export default (props) => {
             </p>
             <div className="styled_border">
                 <h2>Brooklyn Cookin</h2>
-                <a href="https://master.d1xe2ybhvvvdvj.amplifyapp.com/" target="_blank"><img src="https://cooljg-brooklyn-cookin.s3.amazonaws.com/brooklyncookin.png" alt="brooklyn cookin" /></a>
+                <a href="https://master.d1xe2ybhvvvdvj.amplifyapp.com/" target="_blank"><img src="https://cooljg-dotcom.s3.amazonaws.com/WhatsCookin.png" alt="brooklyn cookin" /></a>
                 <p>
-                    I love to cook!  Helps keep track of my favorite, goto recipes.  React-Amplify frontend.  Lambda-DynamoDB backend.  Test user/password is superfreshwhatscookin@gmail.com/Superfresh
+                    I love to cook!  Helps keep track of my favorite, goto recipes.  React-Amplify frontend.  Lambda-DynamoDB backend.  
+                </p>
+                <p>
+                    Test user/password is superfreshwhatscookin@gmail.com/Superfresh.
                 </p>
                 <a href="https://github.com/jegathings/whatscookin_api" target="_blank">Serverside Code</a><br />
                 <a href="https://github.com/jegathings/whatscookin_ui" target="_blank">UI Code</a><br />
