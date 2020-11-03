@@ -90,7 +90,8 @@ const App = (props) => {
                     <button class="button" onClick={() => { display(CERTIFICATIONS)}}>Certifications</button>
                     <button class="button" ><a href="https://github.com/jegathings?tab=repositories" target="_blank">GitHub</a></button>
                     <button class="button" ><a href="https://www.linkedin.com/in/jegathings" target="_blank">LinkedIn</a></button>
-                    <button class="button"><a href="https://jgs-super-cool-2020-resume.s3.amazonaws.com/James+Gathings+Resume.docx">Resume</a></button>
+                    <button class="button"><a href="https://jgs-super-cool-2020-resume.s3.amazonaws.com/">Resume</a></button>
+                    <button class="button"><a href="https://jgs-super-cool-2020-resume.s3.amazonaws.com/James+Gathings+Resume.docx.pdf">Resume</a></button>
                 </nav>
             </div>
             <div className="holy-grail-body">
